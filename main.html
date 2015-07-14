@@ -1,0 +1,199 @@
+﻿<html>
+<head>
+<title>Motorul Otto</title>
+<meta http-equiv="Content-Type"
+content="text/html;charset=ISO-8859-1">
+<script type="text/javascript" src="scripts/jquery.js"></script>
+<script type="text/javascript" src="scripts/script.js"></script>
+<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+
+<body>
+<div class="container" style="opacity:0;" id="bc">
+</br></br></br></br></br>
+<div class="infoBox" id="begin">
+<img src="res/sigla.png" id="startGreet" style="border-radius: 100px; float: center; width: 100%; height: 100%;">
+</div>
+</div>
+
+<div class="container" id="main" style="display:none; opacity:0">
+	<div id="bar"><center>
+		<div class="cbar" id="b1">Introducere</div>
+		<div class="cbar" id="b2">I Admisia</div>
+		<div class="cbar" id="b3">II Compresia</div>
+		<div class="cbar" id="b4">III Aprinderea</div>
+		<div class="cbar" id="b5">IV Evacuarea</div>
+		<div class="cbar" id="b6"><span style="width: 25%"></span>Aplicaţii</div></center>
+   </div>
+<div id="p1">
+<div class="header">
+<p>Motoare Termice - Motorul Otto</p>
+</div>
+<div class="text">
+	<img id="enginestat" src="files/foc.png" height=300px style="float:right; margin:30px;">
+	<img id="engineani" src="files/engine.gif" height=300px style="float:right; margin:30px; display:none;">
+	<p style="width:550px">În 1867, împreună cu inginerul Eugen Langen (1833-1895), Otto a construit un motor termic cu ardere internă, cu piston în patru timpi, care folosea combustibil gazos.
+   În anul 1878, Nikolaus Otto, a pus la punct un motor în 4 timpi alimentat cu combustibil lichid (benzină) cu un randament de 22%. O contribuţie însemnată la perfecţionarea motorului cu ardere internă, cu aprindere prin scânteie electrică, au adus-o inventatorii germani Karl Benz şi Gottlieb Daimler, care au realizat primele automobile acţionate cu astfel de motoare.</p>
+	<div id="dots">
+	<img src="res/dot.png" height=20px id="cilindruB" style="position:relative" class="dot">
+	<img src="res/dot.png" height=20px id="pistonB" style="position:relative" class="dot">
+	<img src="res/dot.png" height=24px id="bujieB" style="position:relative" class="dot">
+	<img src="res/dot.png" height=20px id="supapaB" style="position:relative" class="dot">
+	</div>
+	<div id="motorParts">
+	<div class="infoBox" id="init">
+		<p><i>Selectaţi o parte a motorului pentru a afla mai multe informaţii...</i></p>
+	</div>
+	<div class="infoBox" id="cilindru" style="opacity:0; display:none">
+		<p><b>Cilindrul</b></br>Reprezintă componenta în care culisează pistonul. Motorul descris aici are un singur cilindru, dar majoritatea motoarelor au mai mulţi cilindrii (4, 6 sau 8).</p>
+	</div>
+	<div class="infoBox" id="piston" style="opacity:0; display:none">
+		<p><b>Pistonul</b></br>Este o piesă din mecanismul bielă-manivelă, confecţionat din aliaj de aluminiu, turnat, având formă cilindrică, care culisează în cilindru.</p>
+		<img src="files/piston.png" style="float: center; margin-top: 0px;">
+	</div>
+	<div class="infoBox" id="bujie" style="opacity:0; display:none">
+		<p><b>Bujia</b></br>Piesă componentă a unui motor cu aprindere prin scânteie care serveşte la aprinderea amestecului carburant în cilindru prin producerea unei scântei electrice între doi electrozi la un moment bine stabilit.</p><img src="files/bujie.png" style="float: center; margin-top: 0px;">
+	</div>
+	<div class="infoBox" id="supapa" style="opacity:0; display:none">
+		<p><b>Supape</b></br>Au rolul de a deschide şi închide orificiile prin care se realizează admisia combustibilului în cilindru şi evacuare gazelor arse. Supele execută o mişcare de translaţie, fiind comandate de camele de pe axul cu came (ca în animaţia alăturată, unde axul cu came are culoarea verde)</p>
+		<img src="files/supape.png" style="float: center; margin-top: 0px;">
+	</div>
+	</div><br><br>
+	<div class="button" id="to_2">Următorul</div>
+   </div>
+</div>
+<div id="p2" style="display:none; opacity:0;">
+	<div class="header">
+<p>Motorul Otto - <i>Timpul 1: Admisia</i></p>
+</div>
+<div class="text">
+	<div>
+	<img src="files/intrare.png" height=300px style="float:right; margin:30px;">
+	</div>
+	<p>În timpul 1 se deschide supapa de admisie, iar în timp ce pistonul se deplasează înspre punctul mort inferior, în cilindru este absorbit amestecul de vapori de benzină şi aer (realizat în carburator) datorită depresiunii formate.</p>
+	<p>În această etapă, supapa de admisie este deschisă, supapa de evacuare este închisă, iar pistonul se deplasează de la PMS la PMI.</p>
+	<div class="infoBox" id="textInfo">
+		<p><i>Ciclul de funcţionare al motorului Otto</i></p>
+		<img src="files/grafic.png" height=200px class="formula">
+	</div>
+	</br>
+		<div class="button" id="back_1" style="float: left;">Inapoi</div><div class="button" id="to_3" style="float: right;">Următorul</div><br><br>
+	</div>
+
+   
+</div>
+<div id="p3" style="display:none; opacity:0;">
+	<div class="header">
+<p>Motorul Otto - <i>Timpul 2: Compresia</i></p>
+</div>
+<div class="text">
+	<div>
+	<img src="files/ardere2.png" height=300px style="float:right; margin:30px;">
+	</div>
+	<p>După ce pistonul a ajuns în punctul mort inferior, supapa de admisie se închide. Supapa de evacuare este şi ea închisă. În deplasarea pistonului înspre punctul mort superior, acesta comprimă amestecul din cilindru până la o rată de 9:1.</p>
+	<p>În urma închiderii supapei de admisie, pistonul se deplasează de la PMI spre PMS. În acest fel, se produce atât creșterea presiunii, cât și a temperaturii. Deplasarea are loc suficient de rapid pentru ca sistemul să nu aiba timp să cedeze căldură spre mediul înconjurător, producându-se astfel o transformare ce poate fi considerată adiabatică.</p>
+	<div class="infoBox" id="textInfo">
+		<p><i>Transformarea 2-3 izocoră</i></p>
+		<div>
+			<img src="files/formula1.png" class="formula">
+		</div>
+		</br>
+   </div>
+   </br><br><br><br><br><br>
+   <div class="button" id="back_2" style="float: left;">Inapoi</div><div class="button" id="to_4" style="float: right;">Următorul</div>
+   </div>
+   
+</div>
+<div id="p4" style="display:none; opacity:0;">
+	<div class="header">
+<p>Motorul Otto - <i>Timpul 3: Aprinderea</i></p>
+</div>
+<div class="text">
+	<div>
+	<img src="files/foc.png" height=300px style="float:right; margin:30px;">
+	</div>
+	<p>La sfârşitul compresiei, când pistonul a ajuns la punctul mort superior şi ambele supape sunt închise, se produce o scânteie electrică între electrozii bujiei. Scânteia aprinde amestecul carburant care începe să ardă progresiv. Temperatura rezultată este de circa 2000°C şi presiunea de aproximativ 25 atm. Gazele produc o forţă mare de apăsare asupra pistonului împingâdu-l spre punctul mort inferior. Pe măsură ce pistonul coboară, gazele se destind - are loc detenta. Acum este singurul moment când se produce lucru mecanic.</p>
+	<p>Cu foarte puțin timp înainte ca pistonul să ajungă în PMS, se aplică electrolizilor bujiei o tensiune foarte mare (produsă de bobina de inducție), ceea ce determină aprinderea bruscă a combustibilului aflat și așa la o temperatură foarte mare. Aprinderea întregului combustibil în cilindru are loc brusc, într-un interval de timp în care pistonul se mai deplasează foarte puțin, ajungând la PMS. Într-o primă aproximare, se poate considera că volumul rămâne constant în această transformare.</p>
+	<p>Creșterea temperaturii gazului (până la aproximativ 2000° C) determină o creștere a presiunii până la aproximativ 25 atm, rezultând astfel o forță de apăsare foarte mare exercitată asupra pistonului, forță ce determină deplasarea pistonului spre PMI. Deplasarea rapidă a pistonului nu permite transferul de energie și căldură între gazele din interior și mediul înconjurător, ceea ce face ca și această transformare să poată fi considerată adiabatică.</p><br><br>
+   <div class="button" id="back_3" style="float: left;">Inapoi</div><div class="button" id="to_5" style="float: right;">Următorul</div><br>
+   </div>
+</div>
+<div id="p5" style="display:none; opacity:0;">
+	<div class="header">
+<p>Motorul Otto - <i>Timpul 4: Evacuarea</i></p>
+</div>
+<div class="text">
+	<div>
+	<img src="files/iesire2.png" height=300px style="float:right; margin:30px;">
+	</div>
+	<p>Supapa de admisie este închisă, iar cea de evacuare este deschisă, permiţând gazelor arse din cilindru să fie împinse afară din cilindru de pistonul care se deplasează de la punctul mort inferior spre punctul mort superior.</p>
+	<p>Când pistonul ajunge la PMI, se deschide supapa de evacuare. Gazele arse din cilindru ies afară (unde presiunea este mai mică) prin supapa de evacuare, ajungând apoi, prin țeava de eșapament, în mediul înconjurător. Presiunea în cilindru coboară la o valoare egală cu presiunea exterioară (presiunea atmosferică). În continuare, pistonul se deplasează spre PMS, împingând afară din cilindru gazele arse rămase în cilindru.</p>
+	<img src="files/masinuta1.png" height=150px width=150px style="margin-top: 10em;" id="car">
+		<div class="infoBox" id="textInfo">
+		<p><i>Transformarea 4-1 izocoră</i></p>
+		<div>
+			<img src="files/formula2.png" class="formula">
+		</div>
+		<p><i>Randamentul motorului Otto este reprezentat de formula</i> <div>
+			<img src="files/formula3.png" class="formula">
+		</div></p>
+	</div>
+	<p>În continuare, procesul ciclic se repetă.</p>
+	<div class="button" id="back_4" style="float: left;">Inapoi</div><div class="button" id="to_6" style="float: right;">Următorul</div>
+   </div>
+   
+   
+</div>
+<div id="p6" style="display:none; opacity:0;">
+	<div class="header">
+<p>Motorul Otto - <i>Aplicaţii</i></p>
+</div>
+<div class="text">
+	<div>
+	</div>
+	<p>Rezolvaţi următoarele probleme:</p>
+	<div class="problemField" id="recap">
+		<p style="float: left; color: black;">Problema recapitulativa: </p><br><br>
+			<p style="color: black;">Un gaz ideal descrie ciclul din fig. alaturata în care T2 = eT1, unde e = 2,71 (baza logaritmilor naturali) randamentul motorului termic ce ar funcţiona după acest ciclu.</p> <img src="files/recap.jpg" style="float: right; width: 130px; height: 130px; border-radius: 25px;">
+			<br><br><br><br><br><form>
+			<p style="color: black;">Randamentul = <input type='text' id="diana_e_boss">%</p>
+		</form>
+	</div>
+	<div class="problemField" id="b" style="color: black; margin-top: 30px;">
+		<p style="color: black;">Cat este raportul volumului combustibil initial, combustibil comprimat?</p>
+		<input type="radio" name="b"  />3:7
+		<input type="radio" name="b"  id="t1"/>1:9
+		<input type="radio" name="b"/>2:7
+	</div></br>
+	<div class="problemField" id="a">
+		<p style="color: black;">Care dintre următoarele grafice descriu ciclul de funcționare al motorului Otto?</p>
+		<input type="radio" name="a"  id="t2"/><img src="files/grafic.png" height=120px>
+		<input type="radio" name="a" /><img src="files/grafic1f.png" height=120px>
+		<input type="radio" name="a"/><img src="files/grafic2f.png" height=120px>
+	</div><br>
+	<div class="problemField" id="c" style="color: black;">
+				<p>Ce fel de combustibil foloseste motorul Otto?</p>
+		<input type="radio" name="c" />Motorina
+		<input type="radio" name="c" />Electricitate
+		<input type="radio" name="c" id="t3"/>Benzina
+	</div>
+	</br>
+	<div class="button6" id="solve">Verifică rezultatele</div><br>
+	<div class="button6" id="back_5">Inapoi</div>
+   </div>
+   
+   
+</div>
+   <div class="footer">
+   <p style="font-size:10; float:center;">© Stefan Andrei Hamed, Buican Laura Andreea</p>
+   </div>
+</div>
+<div class="container" id="final" style="display:none; opacity:0">
+</br></br></br></br></br></br></br></br></br></br>
+<div class="infoBox" id="begin">
+<p style="font-size:30;">Felicitări! Ai terminat!</br><img src="files/clap.gif"></p>
+<p style="font-size: 15px">Profesori Coordonatori: Minca Carmen, Dobrescu Corina</p>
+<p style="font-size: 15px">Colegiul National de Informatica "Tudor Vianu"</p>
+</div>
+</body>
+</html>
