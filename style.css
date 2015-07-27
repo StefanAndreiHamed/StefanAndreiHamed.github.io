@@ -337,3 +337,10 @@ background: -linear-gradient(top, #991F00, #FF4719, #991F00);
 .problemField {
 	padding: 4px;
 }
+.zoom {
+	transition: 0.9s;
+}
+.zoom:hover {
+	width:200px;
+	height:200px;
+}
