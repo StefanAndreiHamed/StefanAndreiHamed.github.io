@@ -25,6 +25,11 @@ content="text/html;charset=ISO-8859-1">
 		<div class="cbar" id="b5">IV Evacuarea</div>
 		<div class="cbar" id="b6"><span style="width: 25%"></span>Aplicaţii</div></center>
    </div>
+   <div class='container infoBox' id="scale" style="float:right; margin-top: 15em; margin-right:4.2em; position:relative;">
+	<form>
+		15px<input type="range" min="15" max="22" id="slider" value="17">22px
+		</form> 
+	</div>
 <div id="p1">
 <div class="header">
 <p>Motoare Termice - Motorul Otto</p>
@@ -32,15 +37,16 @@ content="text/html;charset=ISO-8859-1">
 <div class="text">
 	<img id="enginestat" src="files/foc.png" height=300px style="float:right; margin:30px;">
 	<img id="engineani" src="files/engine.gif" height=300px style="float:right; margin:30px; display:none;">
-	<p style="width:550px">În 1867, împreună cu inginerul Eugen Langen (1833-1895), Otto a construit un motor termic cu ardere internă, cu piston în patru timpi, care folosea combustibil gazos.
-   În anul 1878, Nikolaus Otto, a pus la punct un motor în 4 timpi alimentat cu combustibil lichid (benzină) cu un randament de 22%. O contribuţie însemnată la perfecţionarea motorului cu ardere internă, cu aprindere prin scânteie electrică, au adus-o inventatorii germani Karl Benz şi Gottlieb Daimler, care au realizat primele automobile acţionate cu astfel de motoare.</p>
-	<div id="dots">
+	<div style="width:600px; position: absolute;" >
+	<p>În 1867, împreună cu inginerul Eugen Langen (1833-1895), Otto a construit un motor termic cu ardere internă, cu piston în patru timpi, care folosea combustibil gazos.
+   În anul 1878, Nikolaus Otto, a pus la punct un motor în 4 timpi alimentat cu combustibil lichid (benzină) cu un randament de 22%. O contribuţie însemnată la perfecţionarea motorului cu ardere internă, cu aprindere prin scânteie electrică, au adus-o inventatorii germani Karl Benz şi Gottlieb Daimler, care au realizat primele automobile acţionate cu astfel de motoare.</p></div>
+	<div id="dots" style="position: absolute; margin-top: 150px;">
 	<img src="res/dot.png" height=20px id="cilindruB" style="position:relative" class="dot">
 	<img src="res/dot.png" height=20px id="pistonB" style="position:relative" class="dot">
 	<img src="res/dot.png" height=24px id="bujieB" style="position:relative" class="dot">
 	<img src="res/dot.png" height=20px id="supapaB" style="position:relative" class="dot">
 	</div>
-	<div id="motorParts">
+	<div id="motorParts" style="margin-top: 300px;">
 	<div class="infoBox" id="init">
 		<p><i>Selectaţi o parte a motorului pentru a afla mai multe informaţii...</i></p>
 	</div>
@@ -59,7 +65,7 @@ content="text/html;charset=ISO-8859-1">
 		<img src="files/supape.png" style="float: center; margin-top: 0px;">
 	</div>
 	</div><br><br>
-	<div class="button" id="to_2">Următorul</div>
+	<div class="button" id="to_2" style='margin-top: 80px;'>Următorul</div>
    </div>
 </div>
 <div id="p2" style="display:none; opacity:0;">
@@ -88,7 +94,7 @@ content="text/html;charset=ISO-8859-1">
 </div>
 <div class="text">
 	<div>
-	<img src="files/ardere2.png" height=300px style="float:right; margin:30px;">
+	<img src="files/ardere.png" height=300px style="float:right; margin:30px;">
 	</div>
 	<p>După ce pistonul a ajuns în punctul mort inferior, supapa de admisie se închide. Supapa de evacuare este şi ea închisă. În deplasarea pistonului înspre punctul mort superior, acesta comprimă amestecul din cilindru până la o rată de 9:1.</p>
 	<p>În urma închiderii supapei de admisie, pistonul se deplasează de la PMI spre PMS. În acest fel, se produce atât creșterea presiunii, cât și a temperaturii. Deplasarea are loc suficient de rapid pentru ca sistemul să nu aiba timp să cedeze căldură spre mediul înconjurător, producându-se astfel o transformare ce poate fi considerată adiabatică.</p>
@@ -190,6 +196,7 @@ content="text/html;charset=ISO-8859-1">
    <p style="font-size:10; float:center;">© Stefan Andrei Hamed, Buican Laura Andreea</p>
    </div>
 </div>
+
 <div class="container" id="final" style="display:none; opacity:0">
 </br></br></br></br></br></br></br></br></br></br>
 <div class="infoBox" id="begin">

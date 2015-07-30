@@ -137,14 +137,14 @@ $("#b4").click(function(){
 		cpage=4;for(x=1; x<=6; x++) {$('#b'+x).removeClass('active');}
 		$("#b4").addClass('active');
 		for(x=1;x<=3;x++) {$('#foc'+x).hide();}
-			$('#foc1').show();
+			$('#foc1').show(); foc=1;
 	});}
 });
 $("#to_5").click(function(){
 	if(foc===3) {
 	$("#b5").click();$("#b5").addClass('active');$('#b4').removeClass('active');}
-	else if(foc===1) {$('#foc1').hide(); $('#foc2').show(); foc=2;}
-	else if(foc===2) {$('#foc2').hide(); $('#foc3').show(); foc=3;}
+	else if(foc===1) {$('#foc1').slideUp(300, function(){$('#foc2').slideDown(300, function(){foc=2;})});}
+	else if(foc===2) {$('#foc2').slideUp(300, function(){$('#foc3').slideDown(300, function(){foc=3;})});}
 });
 $("#b5").click(function(){
 	if(cpage!=5){
@@ -279,5 +279,10 @@ $("#back_5").click(function(){
 		cpage=5;for(x=1; x<=6; x++) {$('#b'+x).removeClass('active');}
 		$("#b5").addClass('active');
 	});}
+});
+
+$('#slider').on('change',function(){
+	    var font = $(this).val();
+		$('.text').css({'font-size':font});
 });
 });
