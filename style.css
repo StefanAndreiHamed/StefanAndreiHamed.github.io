@@ -79,6 +79,7 @@ font-family: ArmyChalk;
 	z-index:1;
 	min-height: 30px;
 	padding: 10px;
+	font-size:10px;
 	color: white;
 	text-align:center;
 	background-image: url(res/blackboardUP.jpg);
@@ -93,6 +94,10 @@ background-repeat: repeat;
 -moz-border-radius-bottomleft: 20px;
 border-bottom-right-radius: 20px;
 border-bottom-left-radius: 20px;
+transition: 0.5s;
+}
+.footer:hover {
+	font-size: 20px;
 }
 .infoBox{
 	width: 400px; 
